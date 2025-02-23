@@ -1,7 +1,5 @@
 """
-    Plan Your Game Structure
-
-    - Game Board: A 3x3 grid (array or list). [0, 0 , 0, 0 , 0, 0, 0, 0, 0]
+      - Game Board: A 3x3 grid (array or list). [0, 0 , 0, 0 , 0, 0, 0, 0, 0]
                     -------------
                     | 0 | 0 | 0 |
                     -------------
@@ -10,18 +8,6 @@
                     | 0 | 0 | 0 |
                     -------------
     - Players: Human vs. AI.
-
-    - Move Generation: Get possible moves.
-    
-    - Win Condition Checker: Check for a winner.
-        1. Vertical Alignment:
-            same col, diff rows == equal values
-            [row][col] == [row+1][col] == [row+2][col]
-        2. Horizontal Alignment
-            diff cols, same row == equal values
-            [row][col] == [row][col+1] == [row][col+2]
-        3. Diagonal Alignment
-            [row][col] == [row+1][col+1] == [row+2][col+2]
 """
 
 """
